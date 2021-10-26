@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Head">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="RC">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="logic">
+      <UniqueIdentifier>{30752495-277f-4de7-93cf-ab4101adb402}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CImageView.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CImageViewDlg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgExport.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\CodeConversion.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\LoadThread.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="logic\ThreadLockEx.cpp">
+      <Filter>logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CImageView.h">
+      <Filter>Head</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageViewDlg.h">
+      <Filter>Head</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgExport.h">
+      <Filter>Head</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Head</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Head</Filter>
+    </ClInclude>
+    <ClInclude Include="TagInfo.h">
+      <Filter>Head</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Head</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\CodeConversion.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\LoadThread.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="logic\ThreadLockEx.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bg.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\BgImage.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\CImageView.ico">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\CImageView.rc2">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\CloseBG.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\CloseButton.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\LBtnMenu.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\LBtnMenuTips.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\loading.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\normal.cur">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\PicCountTip.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\ProportionBG.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\RBtnMenu.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\RBtnMenuTips.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\ThumbnailBG.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\Tool.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\ToolTips.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="res\TurnButton.png">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CImageView.rc">
+      <Filter>RC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
